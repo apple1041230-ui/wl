@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>成績排名系統</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>成績數據輸入</h2>
+        <div class="input-group">
+            <input type="text" id="name" placeholder="姓名">
+            <input type="number" id="score" placeholder="成績 (黃色)">
+            <input type="number" id="standard" placeholder="國際依據">
+            <button onclick="addData()">新增資料</button>
+        </div>
+
+        <hr>
+
+        <table id="resultTable">
+            <thead>
+                <tr>
+                    <th>排名</th>
+                    <th>姓名</th>
+                    <th>成績</th>
+                    <th>國際依據</th>
+                    <th>相差</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
